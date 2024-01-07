@@ -157,14 +157,16 @@ main{
     align-items:center;
     justify-content: space-between;
     vertical-align: middle;
-    margin: 120px 0px;
+    margin: 200px 0px;
 }
 .best-offer{
-    width: 30%;
+    /* width: 30%; */
+    margin-right: 50px;
 }
 
 .new-year-offer{
-    width: 30%;
+    /* width: 30%; */
+    margin-left: 100px;
 }
 .new-best-offer{
     color: #F00;
@@ -203,4 +205,30 @@ main{
     border-radius: 300px;
     border: 15px solid #F00;
     padding: 20px;
+}
+
+/* best gifts styles */
+.best-gifts{
+    margin: 120px 0px;
+}
+.gifts-pic img{
+    border-radius: 16px;
+    gap: 44px;
+    width: 31%;   
+}
+.awesome-portfolio{
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.gifts-pic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;   
+}
+.gifts-pic img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.offer-end{
+    margin-bottom: 48px;
 }
