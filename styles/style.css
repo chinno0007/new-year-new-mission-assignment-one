@@ -232,3 +232,36 @@ main{
 .offer-end{
     margin-bottom: 48px;
 }
+
+/* subscribe styles */
+.subscribe{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0px;
+    margin: 120px 0px;
+}
+.user-email{
+    width: 648px;
+    height: 70px;
+    padding-left:30px ;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-subscribe{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    margin-left: 0;
+    
+}
+/* footer styles */
