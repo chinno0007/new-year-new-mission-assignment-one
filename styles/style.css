@@ -33,3 +33,33 @@ header{
     font-weight: 900;
     line-height: 95px;
 }
+/* main styles */
+/* deals styles */
+.deals-of-the-year{
+    width: 60%;
+    max-width: 802px;
+    padding: 120px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+.deals-off{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+.holiday-deals{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.categories{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
