@@ -231,6 +231,8 @@ main{
 }
 .offer-end{
     margin-bottom: 48px;
+    text-transform: capitalize;
+    
 }
 
 /* subscribe styles */
