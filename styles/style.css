@@ -34,6 +34,11 @@ header{
     line-height: 95px;
 }
 /* main styles */
+main{
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
 /* deals styles */
 .deals-of-the-year{
     width: 60%;
@@ -67,9 +72,9 @@ header{
 /* party section */
 .party{
     background-repeat: no-repeat;
-    width: 80%;
+    /* width: 80%;
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 0 auto; */
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vector.png');
     background-size:cover;
     background-repeat: no-repeat;
@@ -105,4 +110,43 @@ header{
     text-decoration: none;
     margin-left: 158px;
 
+}
+
+/* location styles */
+.location{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px 385px;
+    margin-bottom: 120px;
+}
+.location h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.party-location{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    gap: 10px;
+    margin-top: 48px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
 }
