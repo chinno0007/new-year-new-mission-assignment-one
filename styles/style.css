@@ -272,11 +272,16 @@ flex-shrink: 0;
 }
 .btn-subscribe{
     width: 210px;
-    height: 72px;
+    height: 70px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: none;
     margin-left: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
     
 }
 /* footer styles */
@@ -294,12 +299,12 @@ flex-shrink: 0;
 }
 .contact h3{
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-padding-bottom: 50px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    padding-bottom: 50px;
 }
 .contact-number img{
     padding-right: 10px;
